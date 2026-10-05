@@ -13,7 +13,7 @@ Valyrix is an ultra high-performance, real-time product analytics, crash reporti
 2. Navigate to **File** > **Add Package Dependencies...**
 3. Enter the repository URL in the search field:
    ```text
-   https://github.com/valyrix-io/valyrix-ios.git
+   https://github.com/valyrix-io/valyrix-ios-framework.git
    ```
 4. Under **Dependency Rule**, select **Up to Next Major Version** starting at `1.0.0`.
 5. Click **Add Package** and link `Valyrix` to your application target.
@@ -25,7 +25,7 @@ If you are developing a Swift package or modular framework, add `Valyrix` to you
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/valyrix-io/valyrix-ios.git", from: "1.0.0")
+    .package(url: "https://github.com/valyrix-io/valyrix-ios-framework.git", from: "1.0.0")
 ]
 ```
 
@@ -35,7 +35,7 @@ And add it to your target:
 .target(
     name: "MyApp",
     dependencies: [
-        .product(name: "Valyrix", package: "valyrix-ios")
+        .product(name: "Valyrix", package: "valyrix-ios-framework")
     ]
 )
 ```

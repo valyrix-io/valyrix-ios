@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Valyrix",
-            url: "https://github.com/valyrix-io/valyrix-ios/releases/download/1.0.0/Valyrix.xcframework.zip",
+            url: "https://github.com/valyrix-io/valyrix-ios-framework/releases/download/1.0.0/Valyrix.xcframework.zip",
             checksum: "1d0a5d63c11099b16568c86f9ae39514c5e26bde6dd159636118e84ba61123a0"
         ),
     ]
